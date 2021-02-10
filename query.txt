@@ -5,7 +5,7 @@ group: Lab1
 Owner = {
 	Number:number, Owner:string, Street:string,House:string, Apartment:number, Phone:string
 	1, I.N.Ivanov, Komsomolskaya, 165, 56, 42-26-58
-	2, P.V.Antonov, Lenina, 3a,54, 25-78-96
+	2, P.V.Antonov, Lenina, 3a,34, 25-78-96
 	3, Pilot_LLC, Wins, 56, 4, 73-24-15
 	4, CJSC_Meteor, Gorky, 22, NULL, 55-66-59
 }
@@ -31,20 +31,20 @@ Object = {
 
 Client = {
 	Number:string, Client:string, Street:string, House:string, Apartment:number, Phone:string, Type:string, Rent:number
-	13-03,  Petrov, Ukrainskaya, 69,67, 73-15-69, flat, 120
-	17-02,  Vasiliev, Bumajnaya, 24, null, 55-68-96, flat, 250
-	01-02,  Vetrov, Mira, 13,19, 71-11-87, house, 150
-	22-03 ,  Dolgova, Mira, 69,67, 73-15-69, flat, 120
-	27-02,  Petrova, Lenina, 69,67, 73-15-69, flat, 120
-	17-03 ,  Antonova, Bumajnaya, 25,null, 42-12-45, flat, 250
-	18-02,  Stepanov, Mira, 95,345, 25-32-12, flat, 200
+	13-03,  V.I.Petrov, Ukrainskaya, 69,67, 73-15-69, flat, 120
+	17-02,  N.A.Vasiliev, Bumajnaya, 24, null, 55-68-96, flat, 250
+	01-02,  D.B.Vetrov, Mira, 13,19, 71-11-87, house, 150
+	22-03 ,  N.N.Dolgova, Mira, 58,169, 73-15-69, flat, 120
+	27-02,  E.I.Petrova, Lenina, 56,124, 73-15-69, flat, 120
+	17-03 ,  N.A.Antonova, Bumajnaya, 25,null, 42-12-45, flat, 250
+	18-02,  O.B.Stepanov, Mira, 95,345, 25-32-12, flat, 200
 }
 
 Contract = {
 	Number:string, StartDate:date, EndDate:date, Object:number, Client:string, Commission:number
 	D-01-2017-1, 2017-01-17, 2017-04-25, 14, 13-03, 10
 	D-01-2017-2, 2017-01-18, 2017-07-18, 108, 17-03, 20
-	D-01-2017-3, 2017-01-25, 2017-07-18, 107,27-02,15
+	D-01-2017-3, 2017-01-25, 2017-04-25, 107,27-02,15
 	D-01-2017-15,2017-04-26, 2017-07-26, 14,22-03,12
 	D-02-2017-4,2017-02-02,2018-02-02,110,18-02,20
 	D-02-2017-5,2017-02-05,2019-09-05,111,18-02,22
